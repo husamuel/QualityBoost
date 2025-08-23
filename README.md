@@ -37,17 +37,32 @@ Increase confidence in the product and reduce failures in production by catching
 
 ```
 .
-├── .gitlab-ci.yml
-├── .eslintrc.json
-├── .prettierrc
-├── app
-│   ├── src
-│   │   ├── components
-│   │   └── App.js
-│   └── tests
+├── babel.config.js
+├── docker-compose.yml
 ├── Dockerfile
+├── .eslintrc.json
+├── .github
+│   └── workflows
+│       ├── cd.yml
+│       └── ci.yml
 ├── package.json
-└── README.md
+├── .prettierrc
+├── prometheus
+│   └── prometheus.yml
+├── public
+│   └── index.html
+├── README.md
+├── server.js
+└── src
+    ├── App.jsx
+    ├── components
+    │   ├── ProductForm.jsx
+    │   └── ProductList.jsx
+    ├── index.jsx
+    ├── setupTests.js
+    └── tests
+        ├── ProductForm.test.jsx
+        └── ProductList.test.jsx
 ```
 
 ## Key Learnings
