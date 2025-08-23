@@ -31,7 +31,7 @@ Increase confidence in the product and reduce failures in production by catching
 - **Testing**: Jest, React Testing Library, Prettier, ESLint
 - **CI/CD**: GitHub Actions
 - **Monitoring**: Grafana, Prometheus
-- **Containerization**: Docker
+- **Containerization**: Docker, Docker Compose
 
 ## Project Structure
 
