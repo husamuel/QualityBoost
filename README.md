@@ -1,4 +1,5 @@
 # QualityBoost: Reducing Production Errors
+<img width="1138" height="629" alt="QualityBoost" src="https://github.com/user-attachments/assets/fdf9c765-1d07-4d44-95e7-4d367c40efc0" />
 
 ## Objective
 Increase confidence in the product and reduce failures in production by catching issues earlier in the development process.
