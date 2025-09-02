@@ -1,10 +1,10 @@
 {
   "name": "my-app",
   "version": "1.0.0",
-  "description": "React Product Management App",
-  "main": "src/index.jsx",
+  "description": "React Product Management App with Prometheus metrics",
+  "main": "server.js",
   "scripts": {
-    "start": "react-scripts start",
+    "start": "node server.js",
     "build": "react-scripts build",
     "test": "jest",
     "test:watch": "jest --watch",
@@ -13,13 +13,16 @@
     "lint:fix": "eslint src --ext .js,.jsx --fix",
     "format": "prettier --write ."
   },
-  "keywords": ["react", "product-management", "testing"],
+  "keywords": ["react", "product-management", "testing", "metrics"],
   "author": "",
   "license": "MIT",
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-scripts": "5.0.1"
+    "react-scripts": "5.0.1",
+    "express": "^4.18.2",
+    "prom-client": "^14.0.1",
+    "path": "^0.12.7"
   },
   "devDependencies": {
     "@testing-library/jest-dom": "^5.16.5",
